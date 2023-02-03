@@ -1,3 +1,10 @@
+.container {
+  box-sizing: border-box;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
 .btn {
   padding: 1rem 2rem;
   display: inline-block;

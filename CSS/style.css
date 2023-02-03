@@ -2,8 +2,11 @@
 @import url("/CSS/utilidades/tipografia.css");
 @import url("/CSS/utilidades/cores.css");
 /*------HOME------*/
-@import url("/CSS/global/header.css");
+@import url("/CSS/header/header.css");
 @import url("/CSS/home/introducao.css");
 
 /*------Componentes-------*/
 @import url("/CSS/utilidades/componentes.css");
+
+/*------ lista bicicletas-----*/
+@import url("/CSS/bicicletas/bicicletas-lista.css");
