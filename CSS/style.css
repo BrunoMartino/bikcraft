@@ -142,3 +142,39 @@ img {
 .introducao a:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+@media (max-width: 600px) {
+  .introducao a {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .introducao p {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 800px) {
+  .introducao-bg {
+    background: #111;
+    padding-top: 2.5rem;
+    box-shadow: inset 0 -3.75rem #fff;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .introducao-conteudo {
+    padding-bottom: 0;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .introducao img {
+    height: 18.75;
+    max-width: 100%;
+  }
+}
