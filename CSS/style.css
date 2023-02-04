@@ -4,12 +4,9 @@
 /*------HOME------*/
 @import "/CSS/header/header.css";
 @import "/CSS/home/introducao.css";
+@import "/CSS/bicicletas/bicicletas-lista.css";
+@import "/CSS/home/tecnologia.css";
+@import "/CSS/home/parceiros.css";
 
 /*------Componentes-------*/
 @import "/CSS/utilidades/componentes.css";
-
-/*------ lista bicicletas-----*/
-@import "/CSS/bicicletas/bicicletas-lista.css";
-
-/*--------tecnologia-----*/
-@import "/CSS/home/tecnologia.css";
