@@ -1,12 +1,12 @@
-@import url("/CSS/global/global.css");
-@import url("/CSS/utilidades/tipografia.css");
-@import url("/CSS/utilidades/cores.css");
+@import "/CSS/global/global.css";
+@import "/CSS/utilidades/tipografia.css";
+@import "/CSS/utilidades/cores.css";
 /*------HOME------*/
-@import url("/CSS/header/header.css");
-@import url("/CSS/home/introducao.css");
+@import "/CSS/header/header.css";
+@import "/CSS/home/introducao.css";
 
 /*------Componentes-------*/
-@import url("/CSS/utilidades/componentes.css");
+@import "/CSS/utilidades/componentes.css";
 
 /*------ lista bicicletas-----*/
-@import url("/CSS/bicicletas/bicicletas-lista.css");
+@import "/CSS/bicicletas/bicicletas-lista.css";
