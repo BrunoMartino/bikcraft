@@ -24,6 +24,12 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+.font-1-l-b {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
 .font-2-l-b {
   font-size: 1.5rem;
   line-height: 1.5;

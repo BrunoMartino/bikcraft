@@ -13,3 +13,6 @@
 
 /*------Componentes-------*/
 @import "/CSS/utilidades/componentes.css";
+
+/*------termos e condiçoes-----*/
+@import "/CSS/termos/termos.css";
