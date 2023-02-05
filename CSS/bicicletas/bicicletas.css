@@ -1,20 +1,20 @@
 .bicicletas-bg {
   background: linear-gradient(to right, var(--cor-00) 30%, var(--cor-12) 0);
 }
-.bicicleta {
+.bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
 }
-.bicicleta-img {
+.bicicletas-img {
   display: grid;
 }
-.bicicleta-img img {
+.bicicletas-img img {
   grid-area: 1/1;
 }
-.bicicleta-img span {
+.bicicletas-img span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 1.25rem;
@@ -23,19 +23,19 @@
   display: inline-block;
   border-radius: 0.35rem 0 0 0.35rem;
 }
-.bicicleta-conteudo {
+.bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
 }
 .bicicletas h2,
-.bicicleta p {
+.bicicletas p {
   grid-column: 1 /-1;
 }
-.bicicleta h2 {
+.bicicletas h2 {
   margin-bottom: 1.25rem;
 }
-.bicicleta-conteudo h2:before {
+.bicicletas-conteudo h2:before {
   content: "";
   display: block;
   width: 0.75rem;
@@ -43,23 +43,23 @@
   background-color: var(--prim-01);
   margin-bottom: 0.5rem;
 }
-.bicicleta li {
+.bicicletas li {
   gap: 0.5rem;
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
-.bicicleta p {
+.bicicletas p {
   margin-bottom: 2rem;
 }
-.bicicleta a {
+.bicicletas a {
   place-self: end;
 }
 @media (max-width: 800px) {
   .bicicletas-bg {
     background: var(--cor-12);
   }
-  .bicicleta {
+  .bicicletas {
     grid-template-columns: 1fr;
     gap: 1.25rem;
     padding-top: 2.5rem;
@@ -67,13 +67,13 @@
   }
 }
 @media (max-width: 600px) {
-  .bicicleta-conteudo {
+  .bicicletas-conteudo {
     grid-template-columns: 1fr;
   }
-  .bicicleta a {
+  .bicicletas a {
     place-self: start;
   }
-  .bicicleta ul {
+  .bicicletas ul {
     font-size: 1rem;
     margin-bottom: 2rem;
   }

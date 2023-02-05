@@ -25,3 +25,8 @@
 @import "/CSS/seguros/seguros.css";
 @import "/CSS/seguros/vantagens.css";
 @import "/CSS/seguros/perguntas.css";
+
+/*------------produto------*/
+
+@import "/CSS/produto/nimbus.css";
+@import "/CSS/produto/prod-seg.css";

@@ -1,0 +1,37 @@
+.prod-seg-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 120px var(--cor-00), inset 0 -120px var(--cor-12);
+}
+.prod-seg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.prod-seg-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.prod-seg-conteudo {
+  padding-top: 11.25rem;
+  padding-bottom: 11.25rem;
+}
+.prod-seg-conteudo h2 {
+  margin-bottom: 2rem;
+}
+.prod-seg-conteudo p {
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 800px) {
+  .prod-seg-bg {
+    box-shadow: inset 0 -60px var(--cor-12);
+  }
+  .prod-seg {
+    flex-direction: column-reverse;
+  }
+  .prod-seg-conteudo {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
