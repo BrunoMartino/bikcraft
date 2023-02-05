@@ -48,8 +48,8 @@
   }
   .depoimento-conteudo p::before {
     content: "“";
-    left: -5px;
-    top: -20px;
+    left: -25px;
+    top: -25px;
   }
   .depoimento img {
     max-height: 12.5rem;
