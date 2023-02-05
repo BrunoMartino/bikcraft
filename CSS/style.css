@@ -4,6 +4,7 @@
 @import "../CSS/utilidades/cores.css";
 @import "../CSS/header/header.css";
 @import "../CSS/global/footer.css";
+@import "../CSS/utilidades/formulario.css";
 
 /*------HOME------*/
 @import "../CSS/home/introducao.css";
@@ -33,3 +34,4 @@
 
 /*---------contato---------*/
 @import "../CSS/contato/contato.css";
+@import "../CSS/contato/lojas.css";
