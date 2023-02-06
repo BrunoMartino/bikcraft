@@ -2,7 +2,7 @@
 @import "../CSS/global/global.css";
 @import "../CSS/utilidades/tipografia.css";
 @import "../CSS/utilidades/cores.css";
-@import "../CSS/header/header.css";
+@import url("../CSS/header/header.css";)
 @import "../CSS/global/footer.css";
 @import "../CSS/utilidades/formulario.css";
 
