@@ -17,7 +17,7 @@
   gap: 2.5rem;
 }
 
-.lojas-item img[.jpg] {
+.lojas-item img[jpg] {
   max-width: 500px;
   height: 100%;
   object-fit: cover;
