@@ -12,14 +12,17 @@
 .perguntas dl > div:nth-child(odd) {
   background-color: var(--cor-01);
 }
-.perguntas dt {
+.perguntas button {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
+  background: none;
+  width: 100%;
+  text-align: left;
 }
-.perguntas dt:before {
+.perguntas button:before {
   content: "";
   display: inline-block;
   width: 0.75rem;
@@ -27,7 +30,7 @@
   background-color: var(--prim-01);
   align-self: center;
 }
-.perguntas dt:after {
+.perguntas button:after {
   content: "";
   display: inline-block;
   width: 14px;
@@ -36,9 +39,18 @@
   align-self: center;
   transition: 0.3s;
 }
-.perguntas dt:hover:after {
+.perguntas button:hover:after,
+.perguntas button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
+
+.js .perguntas dd {
+  display: none;
+}
+.js .perguntas dd.ativo {
+  display: block;
+}
+
 .perguntas dd {
   padding-top: 1.25rem;
   padding-left: 1.25rem;

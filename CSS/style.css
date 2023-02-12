@@ -5,6 +5,7 @@
 @import "./header/header.css";
 @import "./global/footer.css";
 @import "./utilidades/formulario.css";
+@import "./utilidades/animacao.css";
 
 /*------HOME------*/
 @import "./home/introducao.css";
